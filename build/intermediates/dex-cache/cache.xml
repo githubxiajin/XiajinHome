@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-1eae4b58b756b7a04164be3e763c85975fddb042.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\com.github.wangjiegulu\AndroidBucket\1.0.4\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a2c9ce94bbc3c8bc1834c596dc5c8eca8fc04166">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-a532d8e30a06af9ce1d078c086de35cdd631cc18.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\com.github.wangjiegulu\ShadowViewHelper\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11ed58426cd0cabbd60688c856a65248adefabbc">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-cd5061f337d2ab74de61646fa2f07e5808169015.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\XiajinHome1\library1\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aaa21aa6fa4ec137b655a074d0e3ebef3210f96e">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-ea0cc436a4f5e9b01f46394706861374275f2e81.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\BmobSMS_V1.0.1_20150710.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="df9db564e2842696a68deca39b0186aebf3dc07c">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\BmobSMS_V1.0.1_20150710-6063cf6d9c15a272a00f78b24443a8af9f12a5c2.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\BmobSDK_V3.4.4_0930.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="504064278d5cd28bb2c47245dd3af8176d4ce7eb">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.4_0930-0c88fd7784fe0f8bc1d6691c460ac306b90ffe07.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\commons-codec-1.9-bd60bb54691978806d9a00ea0c0d84522482392e.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-0ebb99064670124740af8e734b691d96ff80f899.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\photoview-library-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b9000943d77c17d231bf3141a712828f2636c2ea">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\photoview-library-1.2.2-93b8d92dbbd39cc3fe14d3e0b347b205716623b0.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\volley-cfc0f16b271366ebee0e9b16b8c6a57dfead1273.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\locSDK_4.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b93335a2753c93f8b8f56741615cb81ea72437">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\locSDK_4.2-e9693e47615dea5a040e1c4173167460b8e72389.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\com.github.wangjiegulu\AndroidInject\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e876c1a156a79caa35250fb66ce1a4c566d6c4d">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-2c8212a0e31bfebe90e5173ab96be5b0deaaa056.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\BmobIM_V1.1.9beta_20150820.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="711e2a35a8b6bbd8599cd12dcca14d55225617bd">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\BmobIM_V1.1.9beta_20150820-f218ef9b5fab9911d6cc359106701367c755e18f.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-1caf5abd81018ffc6ee3dfcdf4e1df32909ea8c8.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\XiajinHome1\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b768881d5c2e999a258e629888da7243d9b7590">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-af5f76e00d6fbeb2795319216d7923a6f753e85c.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\classes-65dc4cc57e4c6c89f5c86c1674b617cb49e16742.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\gson-2.2.2-6aad5d1da578900aae127def764c25922df3dd49.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\baidumapapi_v3_0_0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b39155228374e50c537705e9bfc10d3f69c2397a">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_0_0-6939ba070c5c3edecdffd75d05fbbcf5570cf54d.jar" />
+    </item>
+    <item
+        jar="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\libs\universal-image-loader-1.9.2_sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2_sources-39736168c718fd2ad7abbcd660c018fcd7657775.jar" />
+    </item>
+    <item
+        jar="E:\studio\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\XiajinHome18-31\XiajinHome18-27-2\XiajinHome1\XiajinHome1\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-9bd30c4e8ee55bc498646b0baae84a9138065d91.jar" />
+    </item>
+
+</items>

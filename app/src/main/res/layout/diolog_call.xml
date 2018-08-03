@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textSize_s"
+        android:text="拨打电话"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ssg_textSize_m"
+       />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textSize_s"
+        android:text="400-969-9123"
+        android:textColor="@color/red"
+        android:textSize="@dimen/ssg_textSize_m" 
+       />
+
+</LinearLayout>

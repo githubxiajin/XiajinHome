@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_actionbar"
+        layout="@layout/include_action_bar" />
+    <TextView
+        android:id="@+id/aaaaaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaaa "
+       
+        android:textSize="30dp" />
+    
+    
+   
+    
+    
+    <TextView
+        android:id="@+id/bbbbbbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bbbbbbb "
+       
+        android:textSize="30dp" />
+    
+     <TextView
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send "
+       
+        android:textSize="30dp" />
+    
+      <TextView
+        android:id="@+id/Verified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verified "
+       
+        android:textSize="30dp" />
+      
+          <TextView
+        android:id="@+id/querySmsState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="querySmsState "
+       
+        android:textSize="30dp" />
+      
+    
+
+</LinearLayout>

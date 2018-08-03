@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".ReleaseCarpoolingCarActivity">
+
+    <include
+        android:id="@+id/common_actionbar"
+        layout="@layout/include_action_bar" />
+
+
+    <LinearLayout
+        android:layout_below="@id/common_actionbar"
+        android:id="@+id/l_l_time"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/my_account_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_margin="7dp"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/iconfont_shijian" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="时间"
+            android:textColor="@color/background_floating_material_dark"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="何时出发?"
+            android:textColor="@color/guide_color"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_below="@id/l_l_time"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/button_material_light" />
+
+
+    <LinearLayout
+        android:id="@+id/l_l_start_address"
+        android:layout_below="@id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/my_account_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_margin="7dp"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/iconfont_address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="出发"
+            android:textColor="@color/background_floating_material_dark"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/start_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="出发地址?"
+            android:textColor="@color/guide_color"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_below="@id/l_l_start_address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/button_material_light" />
+
+    <LinearLayout
+        android:layout_below="@id/line_2"
+        android:id="@+id/l_l_end_address"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/my_account_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_margin="7dp"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/iconfont_dizhi2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="到达"
+            android:textColor="@color/background_floating_material_dark"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/end_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="到达地址?"
+            android:textColor="@color/guide_color"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_below="@id/l_l_end_address"
+        android:id="@+id/line_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/button_material_light" />
+
+    <LinearLayout
+        android:layout_below="@id/line_3"
+        android:id="@+id/l_l_phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/my_account_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_margin="7dp"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/iconfont_dianhua"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="电话"
+            android:textColor="@color/background_floating_material_dark"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:autoLink="web"
+            android:background="#fff"
+            android:hint="请输入电话号码"
+            android:imeOptions="actionDone"
+            android:lineSpacingExtra="6.0dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:textColor="#5f5f5f"
+            android:textColorHint="@color/guide_color"
+            android:textCursorDrawable="@null"
+            android:textSize="16.0sp" />
+
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/line_5"
+        android:layout_below="@id/l_l_phone"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/button_material_light" />
+    <LinearLayout
+        android:layout_below="@id/line_5"
+        android:id="@+id/l_l_content"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/my_account_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_margin="7dp"
+            android:src="@drawable/iconfont_yiyouneirong" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="描述"
+            android:textColor="@color/background_floating_material_dark"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="3"
+            android:autoLink="web"
+            android:background="#fff"
+            android:hint="请输拼车描述"
+            android:imeOptions="actionDone"
+            android:lineSpacingExtra="6.0dp"
+            android:textColor="#5f5f5f"
+            android:textColorHint="@color/guide_color"
+            android:textCursorDrawable="@null"
+            android:textSize="16.0sp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/line_6"
+        android:layout_below="@id/l_l_content"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/button_material_light" />
+    <LinearLayout
+        android:layout_below="@id/line_6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/my_account_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_margin="7dp"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/iconfont_leixing" />
+
+        <TextView
+            android:id="@+id/chezhu"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="我是车主"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/chengke"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="我是乘客"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/next_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_bg"
+        android:text="发布"
+        android:textColor="@color/button_color" />
+
+</RelativeLayout>

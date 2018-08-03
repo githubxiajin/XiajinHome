@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="北京"
+            />
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/icon_get_in"
+            android:layout_toRightOf="@+id/tv_start"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="夏津"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_img"
+            />
+
+
+       <TextView
+           android:id="@+id/chufa"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="出发时间:"
+           android:layout_below="@id/tv_start"
+           android:layout_marginTop="10dp"
+           android:textSize="16sp"
+           android:textColor="#8B8682"
+
+           />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出发时间:"
+            android:layout_below="@id/tv_start"
+            android:layout_toRightOf="@id/chufa"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_release_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7分钟前发布"
+            android:textColor="#8B8682"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"
+            />
+
+        </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>

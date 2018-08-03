@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true" android:color="#ff2eb2ff"/>
+    <item android:state_pressed="false" android:color="#ff585858"/>
+    <item android:state_pressed="true" android:color="#ff2eb2ff"/>
+
+</selector><!-- From: file:/H:/vobank_p2p_android/app/src/main/res/color/tab_text_color.xml -->
